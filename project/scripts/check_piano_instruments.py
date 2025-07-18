@@ -53,7 +53,7 @@ def check_piano_instruments(root_folder):
     return results
             
 # Usage
-analysis = check_piano_instruments('D:\Study\Ai_Music_Composer\Ai-music-composer\Adl-piano-midi')
+analysis = check_piano_instruments('D:\Study\Ai_Music_Composer\project\data\Raw\Adl-piano-midi')
 print(f"Total files: {analysis['total_files']}")
 print(f"Valid piano-only: {analysis['valid_piano']} ({analysis['valid_piano']/analysis['total_files']:.1%})")
 print(f"Non-piano instruments found:")
