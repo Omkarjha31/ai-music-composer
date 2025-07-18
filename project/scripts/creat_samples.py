@@ -1,3 +1,4 @@
+#Run only when need to create sample files for manual labeling
 import pandas as pd
 import random
 from pathlib import Path
