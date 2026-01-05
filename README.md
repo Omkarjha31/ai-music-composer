@@ -1,2 +1,3 @@
 # ai-music-composer
-This project builds an AI-based music composer that generates original music based on a chosen mood. It uses deep learning on MIDI data to learn musical patterns and create new compositions in styles such as happy, sad, angry, and calm.
+<p>This project builds an AI-based music composer that generates original music based on a chosen mood. It uses deep learning on MIDI data to learn musical patterns and create new compositions in styles such as happy, sad, angry, and calm.</p>
+<p>A mood-conditioned LSTM model was trained on symbolic MIDI data for music generation. The model demonstrated stable convergence over three epochs and was able to generate original music sequences conditioned on emotional categories</p>
